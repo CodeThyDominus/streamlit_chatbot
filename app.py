@@ -25,9 +25,9 @@ def llm_response(question):
         return None
 
 
-st.title("Chat Application using Gemini Pro")
+st.title("Barking Bot! Meow Meow")
 
-user_quest = st.text_input("Ask a question:")
+user_quest = st.text_input("You are an Idiot, Tell me what you don't know?")
 
 btn = st.button("Ask")
 
